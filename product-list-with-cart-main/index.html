@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Desserts</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="container text-center">
+              <div class="row">
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-waffle-thumbnail.jpg"
+                      alt="Waffle Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Waffle with Berries</p>
+                  <p class="food-desc">Waffle</p>
+                  <p class="food-price">6.50</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-creme-brulee-thumbnail.jpg"
+                      alt="Creme Brulee Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Vanilla Bean Crème Brûlée</p>
+                  <p class="food-desc">Crème Brûlée</p>
+                  <p class="food-price">7.00</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-macaron-thumbnail.jpg"
+                      alt="Macaron Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Macaron Mix of Five</p>
+                  <p class="food-desc">Macaron</p>
+                  <p class="food-price">8.00</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-tiramisu-thumbnail.jpg"
+                      alt="Classic Tiramisu Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Tiramisu</p>
+                  <p class="food-desc">Classic Tiramisu</p>
+                  <p class="food-price">5.50</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-baklava-thumbnail.jpg"
+                      alt="Pistachio Baklava Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Pistachio Baklava</p>
+                  <p class="food-desc">Baklava</p>
+                  <p class="food-price">4.00</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-meringue-thumbnail.jpg"
+                      alt="Lemon Meringue Pie Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Lemon Meringue Pie</p>
+                  <p class="food-desc">Pie</p>
+                  <p class="food-price">5.00</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-cake-thumbnail.jpg"
+                      alt="Red Velvet Cake Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Red Velvet Cake</p>
+                  <p class="food-desc">Cake</p>
+                  <p class="food-price">4.50</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-brownie-thumbnail.jpg"
+                      alt="Salted Caramel Brownies Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Salted Caramel Brownie</p>
+                  <p class="food-desc">Brownie</p>
+                  <p class="food-price">4.50</p>
+                </section>
+
+                <section class="col-4">
+                  <div class="img-container">
+                    <img
+                      src="assets/images/image-panna-cotta-thumbnail.jpg"
+                      alt="Panna Cotta Thumbnail"
+                    />
+                    <button type="button" class="btn btn-outline-primary">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <p class="food-name">Vanilla Panna Cotta</p>
+                  <p class="food-desc">Panna Cotta</p>
+                  <p class="food-price">6.50</p>
+                </section>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="your-cart">
+              <p>
+                Your Cart (<!-- Quantity -->) Your added items will appear here
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
